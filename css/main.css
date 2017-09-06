@@ -53,7 +53,7 @@
 	left: 4%;
 }
 
-/*primera seccion*/
+/********************************primera seccion*/
 
 
 .perfil{
@@ -71,7 +71,7 @@
 .primera{
 	width: 80%;
 	height: 500px;
-    margin-left: 10%;
+  margin-left: 10%;
   text-align: center;
 }
 .icon-star-full{
@@ -131,12 +131,11 @@
 .galer{
 	 width: 28%;
 	height: 300px;
-	/*margin-top: 00px;*/	
-    color: red;
-    font-size:18px;
-  /*  border-color: 2px solid red;
+  color: red;
+  font-size:18px;
+ /*   border-color: 2px solid red;
     border-style: solid;*/
-    float: left;
+  float: left;
    display: flex;
    align-items: baseline;
    flex-direction: wrap;
