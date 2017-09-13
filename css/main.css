@@ -1,10 +1,9 @@
 
- * Estilos de tu proyecto
- */
+ 
 
 
  *{
- 	outline: 1px solid red;
+ 	/*outline: 1px solid yellow;*/
  	margin: 0;
    padding: 0;
    font-family: 'Bowlby One SC', cursive;
@@ -13,7 +12,7 @@
  #nav-header {
 	position: fixed;
 	width: 100%;
-	height: 90px;
+	height: 80px;
 	z-index: 1000;
 	background-color:#2c3e50;
 	 font-family: 'Bowlby One SC', cursive;
@@ -41,8 +40,9 @@
 	left: 50%;
 }
 .menu:hover{
-    color: #009668;
+    background-color:#18bc9c; 
 }
+
 .nombre{
 	font-size: 20px;
 	color: white;
@@ -86,7 +86,13 @@
 
 }
 /****************************************segunda seccion*/
-
+.portafolio{
+  width: 100%;
+  height: 500px;
+  background: white; 
+  text-align: center;
+  color: black;
+}
  .portafolio h1{
 	color: black;
 	left: 20px;
@@ -95,92 +101,66 @@
 }
 
  .portafolio .line-horizontal{
-   width: 10%;
-   height:4px;  
+   width: 6%;
+   height:5px;  
    background-color:black; 
    display: inline-block;
 
 }
 .portafolio .icon-star-full{
-	font-size: 40px;
+	font-size: 300%;
 	color: black;
 }
 
-.galeria{
-	width: 100%;
-	height: 500px;
-    background: white; 
-    display: flex;
-	justify-content: space-between;
-	
-	
+.div-img{
+	width: 25%;
+	height: 200px;
+  margin: 1%;
+  position: relative;
+  display:inline-block; 
 }
-.portafolio{
-	width: 100%;
-	height: 500px;
-    margin-left: 10%;
-    text-align: center;
-    color: black;
-}
-.galeria img{
-   display:flex; 
-	width: 280px;
-	height: 300px;
-	margin-left: 50px;
-}
-.galer{
-	 width: 28%;
-	height: 300px;
-  color: red;
-  font-size:18px;
- /*   border-color: 2px solid red;
-    border-style: solid;*/
-  float: left;
-   display: flex;
-   align-items: baseline;
-   flex-direction: wrap;
 
-}
+
 
 
 /**********************tercera seccion*/
 
 
-.about{
+#about{
 	width: 100%;
-	height: 700px;
+	height: 500px;
     background:  #18bc9c; 
     display: flex;
     text-align: center;
     font-size: 20px;
+    margin-top: 18%;
 	justify-content: space-between;
 
 }
-.about h1{
+#about h1{
 	color: white;
 	left: 20px;
 	font-size: 50px;
 	font-family: 'Asap', sans-serif;
 }
 
- .about .line-horizontal{
-   width: 20%;
-   height:4px;  
-   text-align: center;
-   background-color:white; 
+ #about .line-horizontal{
+  width: 6%;
+   height:5px;  
+   background-color:#fff; 
    display: inline-block;
 
 }
-.about .icon-star-full{
+#about .icon-star-full{
 	font-size: 40px;
 	color: white;
 }
-.about .texto1,.texto2{
+#about .texto1,.texto2{
 	color:white;
 }
 .texto1{
 	width: 30%;
-	height: 300px;
+	height: 200px;
 	margin-top: 20px;
 	margin-left: 20%;
 	display:flex;
@@ -190,7 +170,7 @@
 }
 .texto2{
 	width: 30%;
-	height:300px; 
+	height:200px; 
 	display:flex;
 	margin-top: 20px;
     float: left;
@@ -201,18 +181,18 @@
 .dowloand a {
    width: 16%;
 	height: 50px;
-	margin-top: 300px;	
+	margin-top: 240px;	
 	margin-left: 45%;
 	text-align:  center;
 	position: absolute;
 	display: flex;
-    color: white;
-    font-size:18px ;
-    border-color: 2px solid white;
-    border-style: solid;
-    background: transparent;
-    border-radius: 10px;
-    text-decoration: none;
+  color: white;
+  font-size:18px ;
+  border-color: 2px solid white;
+  border-style: solid;
+  background: transparent;
+  border-radius: 10px;
+  text-decoration: none;
 	
 }
 .icon-download3{
@@ -220,39 +200,37 @@
 	color: white;
 }
 /*********************************************cuarta seccion(CONTACTAME) */
-.contactame{
-  margin-top: 400px;
+#contactame{
+  margin-top: 340px;
 	width: 100%;
 	height: 500px;
     background:  white; 
     display: flex;
     text-align: center;
     font-size: 20px;
-	/*justify-content: space-between;*/
+	justify-content: space-between;
 
 }
-.contactame h1{
+#contactame h1{
 	color: black;
 	left: 20px;
 	font-size: 50px;
 	font-family: 'Asap', sans-serif;
 }
 
- .contactame .line-horizontal{
-   width: 20%;
-   height:4px;  
-   text-align: center;
+ #contactame .line-horizontal{
+   width: 16%;
+   height:5px;  
    background-color:black; 
    display: inline-block;
 
 }
-.contactame .icon-star-full{
+#contactame .icon-star-full{
 	font-size: 40px;
 	color: black;
 }
-#formulario{
+.formulario{
    color:#352384;
-    background: white;
     background-position: center;
     background-size: cover;
     width:45%;
@@ -260,7 +238,6 @@
     left: 28%;
     text-align: center; 
      position: absolute;
-     border-radius: 16px;
      font-size: 20px;
 
 }
@@ -310,28 +287,30 @@ input:focus:invalid {
 }
 *//************************************************Footer*/
 footer{
-    display: inline-flex;
-  flex-direction: wrap;
+  display: inline-flex;
+  justify-content:center;
   width: 100%;
-  height: 400px;
-  margin-top: 320px;
+  height: 40px;
+  /*margin-top: 320px;*/
   position: relative;
   color: white;
+  text-align: center;
   background: #2c3e50;
 }
-
-#pie-contenido{
- width: 100%;
-height: 400px;  
+#section-footer{
+  margin-top: 30%;
+  width: 100%;
+  height: 260px;
+  background: #2c3e50;
+  color: #fff;
 }
+
 .box{
 	 width: 32%;
-	 height: 380px;	
+	 height: 250px;	
     color: white;
     font-size:18px;
     text-align: center;
-    /*border-color: 2px solid red;
-    border-style: solid;*/
     background: transparent;
     float: left;
     margin-left: 0.8%;
@@ -361,21 +340,22 @@ height: 400px;
   font-size: 20px;
 }
 .icon-facebook ,.icon-google-plus, .icon-twitter, .icon-linkedin2, .icon-dribbble{
-  font-size: 20px;
+  font-size: 80%;
   padding: 15px;
-  margin-left: 7px;
+  margin-left: 22px;
   border-color: 2px solid white;
   border-style: solid;
   border-radius:60px; 
 }
 .title-icon{
-  width: 100%;
-  height: 100px;
-  position: relative;
- top: -60%;
+  width: 30%;
+  text-align: center;
+  float: left;
+  position: absolute;
+margin-top: 4%;
 
 }
 
-.box .color{
+.box .color{margin-top: 30%;
   color: #18bc9c;
 }
